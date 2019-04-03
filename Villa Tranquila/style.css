@@ -1,0 +1,81 @@
+@charset "utf-8";
+.container {
+	width: 950px;
+}
+body {
+	background-image: url(images/background3.jpg);
+	color: #0000FF;
+	font-weight: bold;
+}
+#header {
+	position: absolute;
+	left: 71px;
+	top: 79px;
+	width: 887px;
+	height: 44px;
+	z-index: 1;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 14px;
+	text-decoration: none;
+	display: inline;
+	background-color: #333;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#header a {
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+}
+#header a:hover {
+	color: yellow;
+}
+#apDiv2 {
+	position: absolute;
+	left: 72px;
+	top: 179px;
+	width: 792px;
+	height: 371px;
+	z-index: 2;
+	list-style-position: inside;
+}
+#main {
+	position: absolute;
+	left: 903px;
+	top: 273px;
+	width: 484px;
+	height: 171px;
+	z-index: 3;
+	text-align: center;
+	color: #333;
+	font-family: "Comic Sans MS", cursive;
+}
+#link {
+	position: absolute;
+	left: 62px;
+	top: 957px;
+	width: 887px;
+	height: 44px;
+	z-index: 1;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 12px;
+	text-decoration: none;
+	display: inline;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#link a {
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+}
